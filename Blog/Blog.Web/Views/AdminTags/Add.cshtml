@@ -1,7 +1,33 @@
-﻿
+﻿@using Blog.Web.Models.ViewModel;
+@model AddTagRequest
 @{
     ViewData["Title"] = "Add";
 }
 
-<h1>Add</h1>
-
+<section style="">
+    <div class="container">
+        <form asp-controller="AdminTags" asp-action="Add" asp-antiforgery="true" method="post" class="form-horizontal">
+            <h1>Add Tag</h1>
+            <hr />
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="DisplayName" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="DisplayName" class="form-control" />
+                    <span asp-validation-for="DisplayName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <div class="col-md-10">
+                    <input type="submit" class="btn btn-primary" value="Submit" />
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
