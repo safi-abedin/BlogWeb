@@ -20,6 +20,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EYXNoYm9hcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/ASPB9/BlogWeb/Blog/Blog.Web/Areas/Admin/Views/DataAdd/AddPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGF0YUFkZFxBZGRQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/ASPB9/BlogWeb/Blog/Blog.Web/Areas/Admin/Views/DataAdd/AddTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGF0YUFkZFxBZGRUYWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/ASPB9/BlogWeb/Blog/Blog.Web/Areas/Admin/Views/DataAdd/Data.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGF0YUFkZFxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,10 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/ASPB9/BlogWeb/Blog/Blog.Web/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/ASPB9/BlogWeb/Blog/Blog.Web/Views/AdminTags/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWdzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/ASPB9/BlogWeb/Blog/Blog.Web/Views/Home/Index.cshtml]

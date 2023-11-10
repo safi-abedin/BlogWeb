@@ -1,13 +1,12 @@
-﻿@using Blog.Web.Models.Domain;
-@using Blog.Web.Models.ViewModel;
+﻿@using Blog.Web.Areas.Admin.Models;
 @model Tag
 @{
-    ViewData["Title"] = "Add";
+    ViewData["Title"] = "AddTag";
 }
 
 <section style="">
     <div class="container">
-        <form asp-controller="AdminTags" asp-action="Add" asp-antiforgery="true" method="post" class="form-horizontal">
+        <form asp-controller="DataAdd" asp-action="AddTag" asp-antiforgery="true" method="post" class="form-horizontal">
             <h1>Add Tag</h1>
             <hr />
             <div class="form-group mb-3">

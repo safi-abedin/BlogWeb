@@ -1,5 +1,5 @@
 ﻿using Autofac;
-using Blog.Web.Models.Domain;
+using Blog.Web.Areas.Admin.Models;
 
 namespace Blog.Web
 {
@@ -7,7 +7,7 @@ namespace Blog.Web
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<Tag>().As<IBLogPost>();
+            builder.RegisterType<Tag>().As<IBlogPost>();
         }
     }
 }

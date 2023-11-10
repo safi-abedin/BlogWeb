@@ -1,0 +1,89 @@
+﻿@using Blog.Web.Areas.Admin.Models;
+@model BlogPost
+@{
+    ViewData["Title"] = "Add post";
+}
+
+<section style="">
+    <div class="container">
+        <form asp-controller="DataAdd" asp-action="AddPost" asp-antiforgery="true" method="post" class="form-horizontal">
+            <h1>Add Tag</h1>
+            <hr />
+            <div class="form-group mb-3">
+                <label asp-for="Heading" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Heading" class="form-control" />
+                    <span asp-validation-for="Heading" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="PageTitle" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="PageTitle" class="form-control" />
+                    <span asp-validation-for="PageTitle" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Author" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Author" class="form-control" />
+                    <span asp-validation-for="Author" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="FeaturedImageUrl" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="FeaturedImageUrl" class="form-control" />
+                    <span asp-validation-for="FeaturedImageUrl" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="ShortDescription" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="ShortDescription" class="form-control" />
+                    <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="PublishedDate" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="PublishedDate" class="form-control" />
+                    <span asp-validation-for="PublishedDate" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Content" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Content" class="form-control" />
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Tags" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Tags" class="form-control" />
+                    <span asp-validation-for="Tags" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="UrlHandle" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="UrlHandle" class="form-control" />
+                    <span asp-validation-for="UrlHandle" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Visible" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Visible" class="form-control" />
+                    <span asp-validation-for="Visible" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <div class="col-md-10">
+                    <input type="submit" class="btn btn-primary" value="Submit" />
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

@@ -1,11 +1,11 @@
-﻿namespace Blog.Web.Models.Domain
+﻿namespace Blog.Web.Areas.Admin.Models
 {
-    public class BlogPost : IBLogPost
+    public class BlogPost:IBlogPost
     {
         public Guid Id { get; set; }
 
         public string Heading { get; set; }
-        
+
         public string PageTitle { get; set; }
 
         public string Content { get; set; }
@@ -25,3 +25,4 @@
         public ICollection<Tag> Tags { get; set; }
     }
 }
+
