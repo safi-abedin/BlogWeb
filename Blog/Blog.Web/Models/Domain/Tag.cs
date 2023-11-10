@@ -1,6 +1,6 @@
 ﻿namespace Blog.Web.Models.Domain
 {
-    public class Tag
+    public class Tag : IBLogPost
     {
         public Guid Id { get; set; }
 

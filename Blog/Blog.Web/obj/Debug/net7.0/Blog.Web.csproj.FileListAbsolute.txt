@@ -251,3 +251,14 @@ F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Worksp
 F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Autofac.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Serilog.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Serilog.AspNetCore.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+F:\ASPB9\BlogWeb\Blog\Blog.Web\bin\Debug\net7.0\Serilog.Sinks.File.dll

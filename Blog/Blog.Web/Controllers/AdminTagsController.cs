@@ -7,33 +7,37 @@ namespace Blog.Web.Controllers
 {
     public class AdminTagsController : Controller
     {
-        private AplicationDbContext _aplicationDbContext { get; }
-        public AdminTagsController(AplicationDbContext aplicationDbContext) 
+        private readonly AplicationDbContext _aplicationDbContext;
+        private readonly IBLogPost _bLogPost;
+        private readonly ILogger<AdminTagsController> _logger;
+
+        public AdminTagsController(AplicationDbContext aplicationDbContext,
+                    IBLogPost bLogPost,ILogger<AdminTagsController> logger) 
         {
             _aplicationDbContext = aplicationDbContext;
+            _bLogPost = bLogPost;
+            _logger = logger;
         }
-
-        
 
         [HttpGet]
         public IActionResult Add()
         {
+            _logger.LogInformation("Admin trying to create a Tag");
             return View();
         }
 
         [HttpPost]
-        [ActionName("Add")]
-        public IActionResult Add(AddTagRequest addTagRequest)
+        public IActionResult Add(Tag tag)
         {
-            //Mapping AddTagRequest to tag model
+            //Mapping AddTagRequest to tag model its call model binding
             var data = new Tag
             {
-
-                Name = addTagRequest.Name,
-                DisplayName = addTagRequest.DisplayName,
+                Name = tag.Name,
+                DisplayName = tag.DisplayName,
             };
             _aplicationDbContext.Tags.Add(data);
-            return View();
+            _aplicationDbContext.SaveChanges();
+            return View(new Tag());
         }
     }
 }
